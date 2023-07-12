@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <!-- meta情報 -->
+  <title>KON</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <!-- 検索にかからないようにする -->
+  <meta name="robots" content="noindex">
+  <!-- ogp -->
+  <meta property="og:title" content="KON">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:site_name" content="">
+  <meta property="og:description" content="落ち着きのあるレストラン">
+  <!-- ファビコン -->
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+  <!-- css -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+  <!-- JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="header contents__header js-header">
+    <div class="header__inner inner">
+      <h1 class="header__logo">
+        <a href="index.html">
+          <img src="./img/common/logo_white.svg" alt="KON">
+        </a>
+      </h1>
+      <button class="header__hamburger hamburger hamburger--contents js-hamburger">
+        <span class="hamburger__bar hamburger__bar--contents"></span>
+        <span class="hamburger__bar hamburger__bar--contents"></span>
+        <span class="hamburger__bar hamburger__bar--contents"></span>
+      </button>
+      <nav class="header__nav header-nav js-drawer">
+        <ul class="header-nav__items">
+          <li class="header-nav__item">
+            <a href="index.html">
+              <span class="text-gray">top</span>
+            </a>
+          </li>
+          <li class="header-nav__item">
+            <a href="menu.html">
+              <span class="text-gray">メニュー</span>
+            </a>
+          </li>
+          <li class="header-nav__item">
+            <a href="contact.html">
+              <span class="text-gray">お問い合わせ</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- MV -->
+    <div class="contact-mv mv">
+      <div class="contact-mv__inner inner">
+        <h2 class="contact__title">
+          お問い合わせ
+        </h2>
+      </div>
+    </div>
+
+    <!-- スライダー -->
+    <div class="swiper contents-swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_1.jpg" alt="鶏胸肉のロースト">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_2.jpg" alt="ビストログリーンサラダ">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_3.jpg" alt="ラムチョップのグリル">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_4.jpg" alt="サーモンのパイ包み焼き">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_5.jpg" alt="">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_6.jpg" alt="真鯛のポワレ">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_7.jpg" alt="鮭のムニエル">
+          </div>
+        </li>
+        <!-- ループ用 -->
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_1.jpg" alt="鶏胸肉のロースト">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_2.jpg" alt="ビストログリーンサラダ">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_3.jpg" alt="ラムチョップのグリル">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_4.jpg" alt="サーモンのパイ包み焼き">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_5.jpg" alt="">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_6.jpg" alt="真鯛のポワレ">
+          </div>
+        </li>
+        <li class="swiper-slide">
+          <div class="contents-swiper__img">
+            <img src="./img/common/img_7.jpg" alt="鮭のムニエル">
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- ページトップへ戻るボタン -->
+    <button class="top-scroll-btn js-scroll">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <section class="contact">
+      <div class="contact__inner inner">
+        <h2 class="contents-title">
+          Contact
+        </h2>
+        <form action="" class="contact__form form">
+          <div class="form__item-container">
+            <div class="form__item">
+              <div class="form__title-area">
+                <label for="name" class="form__title">お名前</label><span class="form__required">※</span>
+              </div>
+              <div class="form__input-area">
+                <input type="text" id="name" required>
+              </div>
+            </div>
+            <div class="form__item">
+              <div class="form__title-area">
+                <label for="tel" class="form__title">お電話番号</label><span class="form__required">※</span>
+              </div>
+              <div class="form__input-area">
+                <input type="tel" id="tel" required>
+              </div>
+            </div>
+            <div class="form__item">
+              <div class="form__title-area">
+                <label for="email" class="form__title">メールアドレス</label>
+              </div>
+              <div class="form__input-area">
+                <input type="email" id="email">
+              </div>
+            </div>
+            <div class="form__item">
+              <div class="form__title-area">
+                <span class="form__title">お問い合わせ項目</span><span class="form__required">※</span>
+              </div>
+              <div class="form__input-area form__input-area--radio">
+                <div class="form__radio">
+                  <input type="radio" name="category" id="reserve" value="ご予約" required>
+                  <label for="reserve" class="form__title">ご予約</label>
+                </div>
+                <div class="form__radio">
+                  <input type="radio" name="category" id="other" value="その他" required>
+                  <label for="other" class="form__title">その他</label>
+                </div>
+              </div>
+            </div>
+            <div class="form__item form__item--message">
+              <div class="form__title-area form__title-area--message">
+                <label for="message" class="form__title form__title--message">お問い合わせ内容</label><span class="form__required">※</span>
+              </div>
+              <div class="form__input-area form__input-area--message">
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+              </div>
+            </div>
+          </div>
+          <p class="form__text">
+            ※前日のご予約の方はお電話でお願いします。<br>
+            ※ご予約希望の方は日にちと人数のご記入をお願いします。
+          </p>
+          <div class="form__btn">
+            <button type="submit" class="btn">送信</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="footer__inner inner">
+      <h2 class="footer__logo">
+        <a href="index.html">
+          <img src="./img/common/logo_white.svg" alt="Kon">
+        </a>
+      </h2>
+      <div class="footer__container">
+        <dl class="footer__info">
+          <div class="footer__info-item">
+            <dt>店名</dt>
+            <dd>Kon</dd>
+          </div>
+          <div class="footer__info-item">
+            <dt>住所</dt>
+            <dd>熊本県熊本市城下町1-1</dd>
+          </div>
+          <div class="footer__info-item">
+            <dt>電話番号</dt>
+            <dd>096-111-1111</dd>
+          </div>
+          <div class="footer__info-item">
+            <dt>アクセス</dt>
+            <dd>熊本駅より市電で城下町へ城下町降車後徒歩3分</dd>
+          </div>
+          <div class="footer__info-item">
+            <dt>営業時間</dt>
+            <dd>18:00〜23:00</dd>
+          </div>
+          <div class="footer__info-item">
+            <dt>定休日</dt>
+            <dd>火曜日</dd>
+          </div>
+        </dl>
+        <div class="footer__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13413.785203699768!2d130.70448949949508!3d32.80693780459542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3540f40e023aca59%3A0x5e8b66c876cde430!2z54aK5pys5Z-O!5e0!3m2!1sja!2sjp!4v1685357345749!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
